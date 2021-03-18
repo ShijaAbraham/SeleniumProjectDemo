@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-13T13:17:20 PST" name="All Test Suite" finished-at="2021-03-13T13:17:56 PST" duration-ms="36671">
+    <groups>
+    </groups>
+    <test started-at="2021-03-13T13:17:20 PST" name="/Users/shijaabraham/IdeaProjects/Frameworkproject" finished-at="2021-03-13T13:17:56 PST" duration-ms="36671">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@77e4c80f]" started-at="2021-03-13T13:17:20 PST" name="setUp" finished-at="2021-03-13T13:17:25 PST" duration-ms="5465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@77e4c80f]" started-at="2021-03-13T13:17:25 PST" name="login" data-provider="getLoginData" finished-at="2021-03-13T13:17:34 PST" duration-ms="8638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun.selenium@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@77e4c80f]" started-at="2021-03-13T13:17:34 PST" name="tearDown" finished-at="2021-03-13T13:17:34 PST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@77e4c80f]" started-at="2021-03-13T13:17:34 PST" name="setUp" finished-at="2021-03-13T13:17:39 PST" duration-ms="4921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@77e4c80f]" started-at="2021-03-13T13:17:39 PST" name="login" data-provider="getLoginData" finished-at="2021-03-13T13:17:56 PST" duration-ms="17322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@77e4c80f]" started-at="2021-03-13T13:17:56 PST" name="tearDown" finished-at="2021-03-13T13:17:56 PST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- /Users/shijaabraham/IdeaProjects/Frameworkproject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
